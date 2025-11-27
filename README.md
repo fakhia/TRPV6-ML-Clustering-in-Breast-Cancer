@@ -1,7 +1,5 @@
 # TRPV6-ML-Clustering-in-Breast-Cancer
-Here is **exactly what you should paste in your README.md** — clean, professional, and perfect for GitHub.
 
----
 
 # **Machine Learning–Based Clustering of Tumor Cells to Identify TRPV6 Overexpression Patterns in Breast Cancer**
 
