@@ -56,6 +56,89 @@ Understanding TRPV6-positive clusters can help in:
 * TRPV6 expression plots
 * Cluster-level TRPV6 distribution
 
+.
+
+🧪 Full Workflow
+PHASE 1 — Data Collection
+
+Download & extract all GSM files
+
+Prepare matrix, barcodes, and features
+
+PHASE 2 — Create & Merge .h5ad Files
+PHASE 3 — Preprocessing & QC
+
+Filter low-quality cells
+
+Normalize, log-transform
+
+Select HVGs
+
+Regress confounders
+
+Scale data
+
+PHASE 4 — Dimensionality Reduction
+
+PCA
+
+Nearest-neighbors graph
+
+UMAP
+
+PHASE 5 — Clustering
+
+Leiden clustering at multiple resolutions
+
+PHASE 6 — Cell-Type Annotation
+
+Using canonical markers:
+
+EPCAM, KRT8/18 (tumor epithelial)
+
+CD3D (T cells)
+
+CD14 (myeloid)
+
+COL1A1 (fibroblasts)
+
+PHASE 7 — TRPV6 Analysis
+
+UMAP visualization
+
+Violin and dot plots
+
+Identification of TRPV6-high tumor clusters
+
+PHASE 8 — Machine Learning
+
+Models used:
+
+Random Forest
+
+XGBoost
+
+Logistic Regression
+
+Purpose:
+
+Predict TRPV6-high cells
+
+Identify gene signatures driving TRPV6 expression
+
+PHASE 9 — Biological Interpretation
+
+TRPV6-high vs TRPV6-low DEGs
+
+GO/KEGG pathway enrichment
+
+Drug target inference (Curcumin, CIS-22A, calcium-channel modulators)
+
+PHASE 10 — Export
+
+Save processed .h5ad
+
+Save all figures
 ---
 
 ## **📊 Results Summary**
